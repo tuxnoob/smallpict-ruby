@@ -4,7 +4,7 @@ Official Ruby gem for the [SmallPict Image Optimization API](https://smallpict.a
 
 [![Gem Version](https://img.shields.io/gem/v/smallpict.svg)](https://rubygems.org/gems/smallpict)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Ruby Version](https://img.shields.io/badge/ruby-%3E%3D3.0-ruby.svg)](https://www.ruby-lang.org)
+[![Ruby Version](https://img.shields.io/badge/ruby-%3E%3D3.1-ruby.svg)](https://www.ruby-lang.org)
 
 ---
 
