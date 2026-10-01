@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "High-performance next-gen image transcoding (AVIF, WebP), smart compression, Edge CDN delivery, and Rails ActiveStorage integration."
   spec.homepage      = "https://smallpict.app"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 3.1.0"
+  spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/tuxnoob/smallpict-ruby"
