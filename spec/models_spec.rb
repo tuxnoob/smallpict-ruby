@@ -10,6 +10,7 @@ RSpec.describe "SmallPict Models" do
         quality: 85,
         max_width: 1920,
         max_height: 1080,
+        max_dimension: 1600,
         fit: "contain",
         lossless: false,
         strip_metadata: true,
@@ -21,6 +22,8 @@ RSpec.describe "SmallPict Models" do
       expect(hash[:format]).to eq("avif")
       expect(hash[:quality]).to eq(85)
       expect(hash[:max_width]).to eq(1920)
+      expect(hash[:max_height]).to eq(1080)
+      expect(hash[:max_dimension]).to eq(1600)
       expect(hash[:fit]).to eq("contain")
       expect(opts.idempotency_key).to eq("idemp_123")
     end
